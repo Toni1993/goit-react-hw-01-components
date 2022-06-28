@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 
 
-export const Stat_list = styled.ul`
+export const StatList = styled.ul`
 
    display: block;
    max-width: 450px;

@@ -1,5 +1,5 @@
 {
-  "name": "goit-react-hw-01-components-",
+  "name": "goit-react-hw-01-components",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,13 +30,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Toni1993/goit-react-hw-01-components-.git"
+    "url": "git+https://github.com/Toni1993/goit-react-hw-01-components.git"
   },
   "author": "antonina ziuz <1993ziuz@gmail.com>",
   "bugs": {
-    "url": "https://github.com/Toni1993/goit-react-hw-01-components-/issues"
+    "url": "https://github.com/Toni1993/goit-react-hw-01-components/issues"
   },
-  "homepage": "https://Toni1993.github.io/goit-react-hw-01-components-",
+  "homepage": "https://Toni1993.github.io/goit-react-hw-01-components",
   "eslintConfig": {
     "extends": [
       "react-app",
