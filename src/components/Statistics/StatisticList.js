@@ -6,18 +6,15 @@ import { Title } from './StatisticItem.styled';
 
 const StatisticList = ({ title, stats }) => (
   <Box
-        as="section"
-      display="blok"
-      height="auto"
-      pt="25px"
-      mx="auto"
-      boxSshadow="0 0 5px rgb(0 0 0 / 10%)" >
+    as="section"
+    display="blok"
+    height="auto"
+    pt="25px"
+    mx="auto"
+    boxSshadow="0 0 5px rgb(0 0 0 / 10%)"
+  >
     {title && <Title>{title}</Title>}
-    <Box
-      as="ul"
-      display="Flex"
-      flexWrap="wrap"
-      >
+    <Box as="ul" display="Flex" flexWrap="wrap">
       {stats.map(stat => (
         <StatisticItem
           key={stat.id.toString()}

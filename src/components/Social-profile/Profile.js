@@ -1,26 +1,27 @@
 import PropTypes from 'prop-types';
 import { Box } from '../box';
 
-import { Avatar }  from './Profile.styled' 
-import { AvatarName } from './Profile.styled'
-import { AvatarTag } from './Profile.styled'
-import { AvatarLocationg } from './Profile.styled'
-import { AvatarLabel } from './Profile.styled'
-import { AvatarQuantity } from './Profile.styled'
-import { AvatarStats } from './Profile.styled'
+import { Avatar } from './Profile.styled';
+import { AvatarName } from './Profile.styled';
+import { AvatarTag } from './Profile.styled';
+import { AvatarLocationg } from './Profile.styled';
+import { AvatarLabel } from './Profile.styled';
+import { AvatarQuantity } from './Profile.styled';
+import { AvatarStats } from './Profile.styled';
 
 const Profile = ({ name, tag, location, avatar, stats }) => (
   <Box
-      display="flex"
-      alignItems="center"
-      flexDirection="column"
-      width="350px"
-      mt="50px"
-      pt="25px"
-      mx="auto"
-      bg=" #f0f0f0">
-    <div >
-      <Avatar src={avatar} alt="Аватар {name}"/>
+    display="flex"
+    alignItems="center"
+    flexDirection="column"
+    width="350px"
+    mt="50px"
+    pt="25px"
+    mx="auto"
+    bg=" #f0f0f0"
+  >
+    <div>
+      <Avatar src={avatar} alt="Аватар {name}" />
       <AvatarName>{name}</AvatarName>
       <AvatarTag>{tag}</AvatarTag>
       <AvatarLocationg>{location}</AvatarLocationg>

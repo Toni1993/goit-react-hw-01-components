@@ -3,7 +3,7 @@ import { Table } from './transactionHistory.styled';
 
 const transactionHistory = ({ transactions }) => {
   return (
-    <Table >
+    <Table>
       <thead>
         <tr>
           <th>Type</th>

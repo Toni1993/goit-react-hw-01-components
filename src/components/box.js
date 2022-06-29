@@ -18,5 +18,5 @@ export const Box = styled('div')(
   grid,
   background,
   border,
-  position
+  position,
 );
